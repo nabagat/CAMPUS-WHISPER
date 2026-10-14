@@ -1,0 +1,32 @@
+{
+  "name": "campus-voice",
+  "version": "1.0.0",
+  "description": "CampusVoice - Privacy-Focused Anonymous Campus Feedback and Discussion Platform",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "seed": "npm run seed --prefix server",
+    "test": "npm test --prefix server",
+    "build": "npm run build --prefix client",
+    "serve": "npm run build && node server/src/server.js",
+    "start": "node server/src/server.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "keywords": [
+    "campus",
+    "feedback",
+    "anonymous",
+    "privacy-by-design",
+    "react",
+    "vite",
+    "express",
+    "gemini-ai"
+  ],
+  "author": "CampusVoice Team",
+  "license": "MIT"
+}

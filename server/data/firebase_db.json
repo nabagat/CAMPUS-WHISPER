@@ -1,0 +1,721 @@
+{
+  "users": [
+    {
+      "role": "student",
+      "status": "active",
+      "department": "Computer Science",
+      "academicYear": "3rd Year",
+      "email": "student@campus.edu",
+      "password": "$2b$12$hTPxhKomIN1.oiSyEo7Vl.pyPfb4gxeU0nNazjGn11aFosYyi3pq6",
+      "_id": "c7639412b0a5bb0e1b34249c",
+      "id": "c7639412b0a5bb0e1b34249c",
+      "createdAt": "2026-09-26T05:01:45.031Z",
+      "updatedAt": "2026-09-26T05:01:45.031Z"
+    },
+    {
+      "role": "moderator",
+      "status": "active",
+      "department": "Campus Student Affairs",
+      "academicYear": "Staff",
+      "email": "moderator@campus.edu",
+      "password": "$2b$12$RkVI.jL.8zHw0wtv9Ya6oejPXsX.FetcGwVbpBbADES12i4.DfVBC",
+      "_id": "6e68c6b5d98ad102db33c036",
+      "id": "6e68c6b5d98ad102db33c036",
+      "createdAt": "2026-09-26T05:01:45.284Z",
+      "updatedAt": "2026-09-26T05:01:45.284Z"
+    },
+    {
+      "role": "admin",
+      "status": "active",
+      "department": "Dean of Students Office",
+      "academicYear": "Staff",
+      "email": "admin@campus.edu",
+      "password": "$2b$12$zAhb64OF1G0XKDmi9tOEE.METDPW0.TIe3Y2H7bcwxsRkDWXx3ErK",
+      "_id": "9967b185274c8f0735dc7e17",
+      "id": "9967b185274c8f0735dc7e17",
+      "createdAt": "2026-09-26T05:01:45.534Z",
+      "updatedAt": "2026-09-26T05:01:45.534Z"
+    },
+    {
+      "role": "student",
+      "status": "active",
+      "department": "Electrical Engineering",
+      "academicYear": "2nd Year",
+      "email": "alex@campus.edu",
+      "password": "$2b$12$o3P3dy3jFxS9EeT.8Bm28.JXMS32plO2pMPn4GBvPjfHrpwGlu9g.",
+      "_id": "97b615ce4f9a76e2f9d07ef8",
+      "id": "97b615ce4f9a76e2f9d07ef8",
+      "createdAt": "2026-09-26T05:01:45.785Z",
+      "updatedAt": "2026-09-26T05:01:45.785Z"
+    },
+    {
+      "role": "student",
+      "status": "active",
+      "department": "Mechanical Engineering",
+      "academicYear": "4th Year",
+      "email": "priya@campus.edu",
+      "password": "$2b$12$1JnzqgwfJFpxw9LQMKM5We1IxQPux/wqM.N43Fv9npvenqRQa28KW",
+      "_id": "636bdc7d219945fecb2f028c",
+      "id": "636bdc7d219945fecb2f028c",
+      "createdAt": "2026-09-26T05:01:46.035Z",
+      "updatedAt": "2026-09-26T05:01:46.035Z"
+    },
+    {
+      "role": "student",
+      "status": "active",
+      "department": "Computer Science",
+      "academicYear": "4th Year",
+      "email": "onlyonline275@gmail.com",
+      "password": "$2b$12$R4OgVdvgbyxr9YFKAPeb0.UEOfoj/d8q3UPxLJsHIkyZej.07toUC",
+      "_id": "38724416823db93cac4b82dd",
+      "id": "38724416823db93cac4b82dd",
+      "createdAt": "2026-10-01T06:22:55.680Z",
+      "updatedAt": "2026-10-01T06:22:55.680Z"
+    }
+  ],
+  "posts": [
+    {
+      "category": "Infrastructure",
+      "tags": [
+        "#WiFi",
+        "#Library",
+        "#ITServices"
+      ],
+      "status": "active",
+      "riskLevel": "low",
+      "isSeriousIssue": false,
+      "score": 42,
+      "upvotes": 45,
+      "downvotes": 3,
+      "commentCount": 2,
+      "viewCount": 167,
+      "moderatorNotes": "",
+      "resolutionNote": "",
+      "resolvedAt": null,
+      "aiAnalysis": {
+        "toxicity": 0.05,
+        "harassment": 0.01,
+        "spam": 0,
+        "threat": 0,
+        "overallRisk": "LOW",
+        "sentiment": "Frustrated",
+        "suggestedCategory": "Infrastructure",
+        "detectedTopics": [
+          "#WiFi",
+          "#Library"
+        ]
+      },
+      "title": "Main Library 3rd Floor Wi-Fi drops every 10 minutes during peak hours",
+      "body": "Students trying to submit assignments and stream online lectures are constantly getting disconnected. Speed tests show high packet loss (over 35%). Can IT Services please check the access points on Block B 3rd Floor?",
+      "pseudonym": "Vigilant Raven #33",
+      "pseudonymAvatar": "{\"seed\":\"a9473943\",\"bgColor\":\"#0d9488\",\"initials\":\"VR\"}",
+      "authorRef": "97b615ce4f9a76e2f9d07ef8",
+      "authorHash": "4622b25da6ab29dc7fae45d7098705dd3b723778de6aa768c81bf8e2b06fe4d5",
+      "_id": "c409eccce9ba1fbe9aaae748",
+      "id": "c409eccce9ba1fbe9aaae748",
+      "createdAt": "2026-09-26T05:01:46.036Z",
+      "updatedAt": "2026-09-26T05:01:46.038Z"
+    },
+    {
+      "category": "Mess",
+      "tags": [
+        "#MessHygiene",
+        "#FoodSafety",
+        "#Hostel4"
+      ],
+      "status": "active",
+      "riskLevel": "low",
+      "isSeriousIssue": true,
+      "score": 88,
+      "upvotes": 90,
+      "downvotes": 2,
+      "commentCount": 1,
+      "viewCount": 328,
+      "moderatorNotes": "",
+      "resolutionNote": "",
+      "resolvedAt": null,
+      "aiAnalysis": {
+        "toxicity": 0.1,
+        "harassment": 0.05,
+        "spam": 0,
+        "threat": 0,
+        "overallRisk": "LOW",
+        "sentiment": "Urgent",
+        "suggestedCategory": "Mess",
+        "detectedTopics": [
+          "#MessHygiene",
+          "#FoodSafety"
+        ]
+      },
+      "title": "South Campus Mess served raw undercooked chicken on Tuesday night",
+      "body": "Multiple students from Hostel 4 and 6 woke up with severe food poisoning yesterday after eating the Tuesday dinner. The inspection logs have not been posted on the mess notice board for two months. We urgently need a food safety audit.",
+      "pseudonym": "Harmonious Koala #5",
+      "pseudonymAvatar": "{\"seed\":\"9f16c8cf\",\"bgColor\":\"#ca8a04\",\"initials\":\"HK\"}",
+      "authorRef": "c7639412b0a5bb0e1b34249c",
+      "authorHash": "73fbb9f63805f35ff839016a82c83465ddac40764292ac56e4f52097dfd80f11",
+      "_id": "98d5eacfbd5ffbbe54f2f80b",
+      "id": "98d5eacfbd5ffbbe54f2f80b",
+      "createdAt": "2026-09-26T05:01:46.037Z",
+      "updatedAt": "2026-09-26T05:01:46.038Z"
+    },
+    {
+      "category": "Academics",
+      "tags": [
+        "#CourseDrop",
+        "#Grading",
+        "#AcademicPolicy"
+      ],
+      "status": "active",
+      "riskLevel": "low",
+      "isSeriousIssue": false,
+      "score": 64,
+      "upvotes": 65,
+      "downvotes": 1,
+      "commentCount": 0,
+      "viewCount": 244,
+      "moderatorNotes": "",
+      "resolutionNote": "",
+      "resolvedAt": null,
+      "aiAnalysis": {
+        "toxicity": 0.02,
+        "harassment": 0.01,
+        "spam": 0,
+        "threat": 0,
+        "overallRisk": "LOW",
+        "sentiment": "Constructive",
+        "suggestedCategory": "Academics",
+        "detectedTopics": [
+          "#CourseDrop",
+          "#AcademicPolicy"
+        ]
+      },
+      "title": "Course drop deadline occurs before Midterm exam grades are published",
+      "body": "According to the academic calendar, the last day to drop a course with a \"W\" is this Friday, but CS301 and MATH240 professors said midterm grades won't be released until next Tuesday. Students cannot make an informed academic decision without knowing where they stand.",
+      "pseudonym": "Mindful Owl #72",
+      "pseudonymAvatar": "{\"seed\":\"433621aa\",\"bgColor\":\"#4f46e5\",\"initials\":\"MO\"}",
+      "authorRef": "636bdc7d219945fecb2f028c",
+      "authorHash": "e155586a0a87b01cbe93de7b560bb0f878cb8ed3a6118ad223117052af87226f",
+      "_id": "0416826ab66eb201b33ec321",
+      "id": "0416826ab66eb201b33ec321",
+      "createdAt": "2026-09-26T05:01:46.037Z",
+      "updatedAt": "2026-09-26T05:01:46.037Z"
+    },
+    {
+      "category": "Hostel",
+      "tags": [
+        "#HostelC",
+        "#Maintenance",
+        "#Safety"
+      ],
+      "status": "resolved",
+      "riskLevel": "low",
+      "isSeriousIssue": false,
+      "score": 31,
+      "upvotes": 32,
+      "downvotes": 1,
+      "commentCount": 0,
+      "viewCount": 128,
+      "moderatorNotes": "",
+      "resolutionNote": "Hostel Maintenance team replaced the burned heating coil and re-certified the electrical breaker on Thursday.",
+      "resolvedAt": "2026-09-25T05:01:46.036Z",
+      "aiAnalysis": {
+        "toxicity": 0.05,
+        "harassment": 0.02,
+        "spam": 0,
+        "threat": 0,
+        "overallRisk": "LOW",
+        "sentiment": "Frustrated",
+        "suggestedCategory": "Hostel",
+        "detectedTopics": [
+          "#HostelC",
+          "#Maintenance"
+        ]
+      },
+      "title": "Block C 2nd Floor Hot Water geyser has been leaking and tripping the circuit breaker",
+      "body": "There has been no hot water in the north wing washroom for 6 days. When anyone switches on the heater, the master fuse trips the entire floor lights. Maintenance was informed on Monday morning ticket #4912 but nobody showed up.",
+      "pseudonym": "Insightful Hawk #21",
+      "pseudonymAvatar": "{\"seed\":\"a27083cc\",\"bgColor\":\"#9333ea\",\"initials\":\"IH\"}",
+      "authorRef": "c7639412b0a5bb0e1b34249c",
+      "authorHash": "73fbb9f63805f35ff839016a82c83465ddac40764292ac56e4f52097dfd80f11",
+      "_id": "d8011e86eb2d04318f79f90a",
+      "id": "d8011e86eb2d04318f79f90a",
+      "createdAt": "2026-09-26T05:01:46.037Z",
+      "updatedAt": "2026-09-26T05:01:46.037Z"
+    },
+    {
+      "category": "Faculty",
+      "tags": [
+        "#LabSupport",
+        "#OfficeHours",
+        "#ECE"
+      ],
+      "status": "active",
+      "riskLevel": "low",
+      "isSeriousIssue": false,
+      "score": 27,
+      "upvotes": 28,
+      "downvotes": 1,
+      "commentCount": 0,
+      "viewCount": 114,
+      "moderatorNotes": "",
+      "resolutionNote": "",
+      "resolvedAt": null,
+      "aiAnalysis": {
+        "toxicity": 0.08,
+        "harassment": 0.05,
+        "spam": 0,
+        "threat": 0,
+        "overallRisk": "LOW",
+        "sentiment": "Urgent",
+        "suggestedCategory": "Faculty",
+        "detectedTopics": [
+          "#LabSupport",
+          "#OfficeHours"
+        ]
+      },
+      "title": "Digital Electronics lab supervisor has missed 3 consecutive office hour slots",
+      "body": "The project milestone is due next week and several teams are stuck on FPGA board pin configurations. When students went to the lab room during published office hours, the door was locked without any notice.",
+      "pseudonym": "Dynamic Robin #38",
+      "pseudonymAvatar": "{\"seed\":\"492e3b46\",\"bgColor\":\"#0d9488\",\"initials\":\"DR\"}",
+      "authorRef": "97b615ce4f9a76e2f9d07ef8",
+      "authorHash": "4622b25da6ab29dc7fae45d7098705dd3b723778de6aa768c81bf8e2b06fe4d5",
+      "_id": "ff6d653f49db214af4d804d0",
+      "id": "ff6d653f49db214af4d804d0",
+      "createdAt": "2026-09-26T05:01:46.037Z",
+      "updatedAt": "2026-09-26T05:01:46.037Z"
+    },
+    {
+      "category": "Administration",
+      "tags": [
+        "#CampusTransit",
+        "#ShuttleBus",
+        "#NorthGate"
+      ],
+      "status": "active",
+      "riskLevel": "low",
+      "isSeriousIssue": false,
+      "score": 53,
+      "upvotes": 55,
+      "downvotes": 2,
+      "commentCount": 0,
+      "viewCount": 205,
+      "moderatorNotes": "",
+      "resolutionNote": "",
+      "resolvedAt": null,
+      "aiAnalysis": {
+        "toxicity": 0.02,
+        "harassment": 0.01,
+        "spam": 0,
+        "threat": 0,
+        "overallRisk": "LOW",
+        "sentiment": "Constructive",
+        "suggestedCategory": "Administration",
+        "detectedTopics": [
+          "#CampusTransit",
+          "#ShuttleBus"
+        ]
+      },
+      "title": "Bus shuttle between North Gate and Metro Station overcrowded at 8:45 AM",
+      "body": "Every morning between 8:30 and 9:15 AM, over 100 students are packed at the North Gate waiting for a single 30-seater shuttle. People are constantly late for 9 AM classes. Adding just one extra shuttle in that 45-minute window would solve the bottleneck.",
+      "pseudonym": "Mindful Owl #72",
+      "pseudonymAvatar": "{\"seed\":\"433621aa\",\"bgColor\":\"#4f46e5\",\"initials\":\"MO\"}",
+      "authorRef": "636bdc7d219945fecb2f028c",
+      "authorHash": "e155586a0a87b01cbe93de7b560bb0f878cb8ed3a6118ad223117052af87226f",
+      "_id": "667ff38a4a99a81891f7151e",
+      "id": "667ff38a4a99a81891f7151e",
+      "createdAt": "2026-09-26T05:01:46.037Z",
+      "updatedAt": "2026-09-26T05:01:46.037Z"
+    },
+    {
+      "category": "Academics",
+      "tags": [
+        "#LibraryHours",
+        "#FinalsStudy",
+        "#StudentCouncil"
+      ],
+      "status": "active",
+      "riskLevel": "low",
+      "isSeriousIssue": false,
+      "score": 112,
+      "upvotes": 114,
+      "downvotes": 2,
+      "commentCount": 0,
+      "viewCount": 412,
+      "moderatorNotes": "",
+      "resolutionNote": "",
+      "resolvedAt": null,
+      "aiAnalysis": {
+        "toxicity": 0.01,
+        "harassment": 0,
+        "spam": 0,
+        "threat": 0,
+        "overallRisk": "LOW",
+        "sentiment": "Constructive",
+        "suggestedCategory": "Academics",
+        "detectedTopics": [
+          "#LibraryHours",
+          "#FinalsStudy"
+        ]
+      },
+      "title": "Proposal: Open Central Library 24/7 during Final Exam Fortnight",
+      "body": "Currently the library closes at 11:00 PM. Many students don't have quiet study environments in crowded hostel rooms. Peer universities keep common study halls open overnight during exams with student security badge access. Can student council advocate for this?",
+      "pseudonym": "Insightful Hawk #21",
+      "pseudonymAvatar": "{\"seed\":\"a27083cc\",\"bgColor\":\"#9333ea\",\"initials\":\"IH\"}",
+      "authorRef": "c7639412b0a5bb0e1b34249c",
+      "authorHash": "73fbb9f63805f35ff839016a82c83465ddac40764292ac56e4f52097dfd80f11",
+      "_id": "630756d9626cfdf69818cd1c",
+      "id": "630756d9626cfdf69818cd1c",
+      "createdAt": "2026-09-26T05:01:46.037Z",
+      "updatedAt": "2026-09-26T05:01:46.037Z"
+    },
+    {
+      "category": "Infrastructure",
+      "tags": [
+        "#GymSafety",
+        "#SportsComplex",
+        "#Repairs"
+      ],
+      "status": "under_review",
+      "riskLevel": "medium",
+      "isSeriousIssue": true,
+      "score": 18,
+      "upvotes": 18,
+      "downvotes": 0,
+      "commentCount": 0,
+      "viewCount": 83,
+      "moderatorNotes": "",
+      "resolutionNote": "",
+      "resolvedAt": null,
+      "aiAnalysis": {
+        "toxicity": 0.15,
+        "harassment": 0.02,
+        "spam": 0,
+        "threat": 0.35,
+        "overallRisk": "MEDIUM",
+        "flags": [
+          "physical_safety_hazard"
+        ],
+        "reasoning": "Mentions potential physical injury hazard in campus gym equipment. Queued for human verification.",
+        "sentiment": "Urgent",
+        "suggestedCategory": "Infrastructure",
+        "detectedTopics": [
+          "#GymSafety",
+          "#Repairs"
+        ]
+      },
+      "title": "Sports Complex gym equipment cables are frayed and pose injury risk",
+      "body": "The cable crossover machine and seated lat pulldown both have visible steel cable fraying with rubber sheathing torn off. If a cable snaps under heavy load, someone will get seriously hurt. Please inspect and replace urgently.",
+      "pseudonym": "Dynamic Robin #38",
+      "pseudonymAvatar": "{\"seed\":\"492e3b46\",\"bgColor\":\"#0d9488\",\"initials\":\"DR\"}",
+      "authorRef": "97b615ce4f9a76e2f9d07ef8",
+      "authorHash": "4622b25da6ab29dc7fae45d7098705dd3b723778de6aa768c81bf8e2b06fe4d5",
+      "_id": "50a86ad2f6e0c4607d55c799",
+      "id": "50a86ad2f6e0c4607d55c799",
+      "createdAt": "2026-09-26T05:01:46.037Z",
+      "updatedAt": "2026-09-26T05:01:46.037Z"
+    },
+    {
+      "category": "Administration",
+      "tags": [
+        "#LibraryFines",
+        "#BillingError"
+      ],
+      "status": "under_review",
+      "riskLevel": "medium",
+      "isSeriousIssue": false,
+      "score": 12,
+      "upvotes": 12,
+      "downvotes": 0,
+      "commentCount": 0,
+      "viewCount": 62,
+      "moderatorNotes": "",
+      "resolutionNote": "",
+      "resolvedAt": null,
+      "aiAnalysis": {
+        "toxicity": 0.25,
+        "harassment": 0.1,
+        "spam": 0,
+        "threat": 0,
+        "overallRisk": "MEDIUM",
+        "reasoning": "Billing dispute requiring administrative check before public publishing.",
+        "sentiment": "Frustrated",
+        "suggestedCategory": "Administration",
+        "detectedTopics": [
+          "#LibraryFines",
+          "#BillingError"
+        ]
+      },
+      "title": "Unfair penalty charges for library books returned within grace period",
+      "body": "The automated library drop box recorded my return at 4:58 PM on Friday, yet the automated billing portal charged a $15 overdue penalty over the weekend claiming Monday morning check-in. The circulation desk refused to look at the dropbox timestamp.",
+      "pseudonym": "Mindful Owl #72",
+      "pseudonymAvatar": "{\"seed\":\"433621aa\",\"bgColor\":\"#4f46e5\",\"initials\":\"MO\"}",
+      "authorRef": "636bdc7d219945fecb2f028c",
+      "authorHash": "e155586a0a87b01cbe93de7b560bb0f878cb8ed3a6118ad223117052af87226f",
+      "_id": "931f8ba2a62649ff4ec86d91",
+      "id": "931f8ba2a62649ff4ec86d91",
+      "createdAt": "2026-09-26T05:01:46.037Z",
+      "updatedAt": "2026-09-26T05:01:46.037Z"
+    },
+    {
+      "category": "General",
+      "tags": [
+        "#attendance",
+        "#lectures",
+        "#4th year",
+        "#General"
+      ],
+      "status": "active",
+      "riskLevel": "low",
+      "isSeriousIssue": false,
+      "score": 1,
+      "upvotes": 1,
+      "downvotes": 0,
+      "commentCount": 1,
+      "viewCount": 1,
+      "moderatorNotes": "",
+      "resolutionNote": "",
+      "resolvedAt": null,
+      "aiAnalysis": {
+        "toxicity": 0.05,
+        "harassment": 0.02,
+        "spam": 0.01,
+        "threat": 0,
+        "overallRisk": "LOW",
+        "flags": [],
+        "reasoning": "Content appears within normal campus guidelines.",
+        "sentiment": "Neutral",
+        "suggestedCategory": "General",
+        "detectedTopics": [
+          "#General"
+        ]
+      },
+      "title": "attendace is decreasing automatically",
+      "body": "no lectures were delivered to students in last 3 to 5 days but the attendance percentage is  dropping . wtf",
+      "pseudonym": "Observant Eagle #78",
+      "pseudonymAvatar": "{\"seed\":\"0855598e\",\"bgColor\":\"#2563eb\",\"initials\":\"OE\"}",
+      "_id": "79d1f16932c474f65a64a88e",
+      "id": "79d1f16932c474f65a64a88e",
+      "createdAt": "2026-10-01T06:30:40.388Z",
+      "updatedAt": "2026-10-01T06:31:51.534Z"
+    }
+  ],
+  "comments": [
+    {
+      "parentId": null,
+      "isAuthorOP": false,
+      "status": "active",
+      "upvotes": 14,
+      "downvotes": 0,
+      "score": 14,
+      "aiAnalysis": {
+        "toxicity": 0,
+        "harassment": 0,
+        "spam": 0,
+        "threat": 0,
+        "overallRisk": "LOW",
+        "flags": [],
+        "reasoning": ""
+      },
+      "postId": "c409eccce9ba1fbe9aaae748",
+      "body": "Can confirm! I was taking an online quiz on Canvas yesterday and it disconnected twice. Had to tether to my phone mobile data.",
+      "pseudonym": "Determined Fox #76",
+      "pseudonymAvatar": "{\"seed\":\"c7b11b15\",\"bgColor\":\"#4f46e5\",\"initials\":\"DF\"}",
+      "authorRef": "c7639412b0a5bb0e1b34249c",
+      "authorHash": "73fbb9f63805f35ff839016a82c83465ddac40764292ac56e4f52097dfd80f11",
+      "_id": "b7905aafcb0aa4459e8bf261",
+      "id": "b7905aafcb0aa4459e8bf261",
+      "createdAt": "2026-09-26T05:01:46.037Z",
+      "updatedAt": "2026-09-26T05:01:46.037Z"
+    },
+    {
+      "parentId": "b7905aafcb0aa4459e8bf261",
+      "isAuthorOP": true,
+      "status": "active",
+      "upvotes": 8,
+      "downvotes": 0,
+      "score": 8,
+      "aiAnalysis": {
+        "toxicity": 0,
+        "harassment": 0,
+        "spam": 0,
+        "threat": 0,
+        "overallRisk": "LOW",
+        "flags": [],
+        "reasoning": ""
+      },
+      "postId": "c409eccce9ba1fbe9aaae748",
+      "body": "Thanks for chiming in! I sent an email to helpdesk@campus.edu with speedtest screenshots as well. Let us hope they reboot the APs soon.",
+      "pseudonym": "Vigilant Raven #33 (OP)",
+      "pseudonymAvatar": "{\"seed\":\"a9473943\",\"bgColor\":\"#0d9488\",\"initials\":\"VR\"}",
+      "authorRef": "97b615ce4f9a76e2f9d07ef8",
+      "authorHash": "4622b25da6ab29dc7fae45d7098705dd3b723778de6aa768c81bf8e2b06fe4d5",
+      "_id": "d6902fea6ad246ec219c91d5",
+      "id": "d6902fea6ad246ec219c91d5",
+      "createdAt": "2026-09-26T05:01:46.037Z",
+      "updatedAt": "2026-09-26T05:01:46.037Z"
+    },
+    {
+      "parentId": null,
+      "isAuthorOP": false,
+      "status": "active",
+      "upvotes": 22,
+      "downvotes": 0,
+      "score": 22,
+      "aiAnalysis": {
+        "toxicity": 0,
+        "harassment": 0,
+        "spam": 0,
+        "threat": 0,
+        "overallRisk": "LOW",
+        "flags": [],
+        "reasoning": ""
+      },
+      "postId": "98d5eacfbd5ffbbe54f2f80b",
+      "body": "Two of my roommates went to the campus health center this morning. The doctor confirmed it was acute food poisoning. Please save your mess token receipts!",
+      "pseudonym": "Tenacious Hedgehog #38",
+      "pseudonymAvatar": "{\"seed\":\"41cd1dbe\",\"bgColor\":\"#e11d48\",\"initials\":\"TH\"}",
+      "authorRef": "97b615ce4f9a76e2f9d07ef8",
+      "authorHash": "4622b25da6ab29dc7fae45d7098705dd3b723778de6aa768c81bf8e2b06fe4d5",
+      "_id": "da7b9a938836d5abf6a1c186",
+      "id": "da7b9a938836d5abf6a1c186",
+      "createdAt": "2026-09-26T05:01:46.038Z",
+      "updatedAt": "2026-09-26T05:01:46.038Z"
+    },
+    {
+      "parentId": null,
+      "isAuthorOP": false,
+      "status": "active",
+      "upvotes": 0,
+      "downvotes": 0,
+      "score": 0,
+      "aiAnalysis": {
+        "toxicity": 0.05,
+        "harassment": 0.02,
+        "spam": 0.01,
+        "threat": 0,
+        "overallRisk": "LOW",
+        "flags": [],
+        "reasoning": "Content appears within normal campus guidelines."
+      },
+      "postId": "79d1f16932c474f65a64a88e",
+      "body": "yahhh bro, i am also concerned about that",
+      "pseudonym": "Vibrant Robin #54",
+      "pseudonymAvatar": "{\"seed\":\"dc9b23f1\",\"bgColor\":\"#ea580c\",\"initials\":\"VR\"}",
+      "authorRef": "38724416823db93cac4b82dd",
+      "authorHash": "ab61fa3bac9754fd37cd2048bc790ce9d3a5e73ff8c3636b913ba517cba74cd6",
+      "_id": "238c1cd1a58ad4ca200fcd3c",
+      "id": "238c1cd1a58ad4ca200fcd3c",
+      "createdAt": "2026-10-01T06:31:51.534Z",
+      "updatedAt": "2026-10-01T06:31:51.534Z"
+    }
+  ],
+  "votes": [
+    {
+      "value": 1,
+      "userHash": "7600ad5f35d71ff842fb37b0aeb6884acf473162f768dcdd81e4875a1677532b",
+      "targetId": "79d1f16932c474f65a64a88e",
+      "targetType": "post",
+      "_id": "f43a47375f40ea0494563b96",
+      "id": "f43a47375f40ea0494563b96",
+      "createdAt": "2026-10-01T06:30:49.529Z",
+      "updatedAt": "2026-10-01T06:30:49.529Z"
+    }
+  ],
+  "reports": [
+    {
+      "reporterNotes": "Safety hazard mentioned regarding gym cables. Flagging so administration prioritizes inspection.",
+      "status": "pending",
+      "moderatorNotes": "",
+      "actionTaken": "none",
+      "reviewedBy": null,
+      "reviewedAt": null,
+      "targetId": "50a86ad2f6e0c4607d55c799",
+      "targetType": "post",
+      "reason": "threat",
+      "_id": "ec4ea1acdfad437a685aec84",
+      "id": "ec4ea1acdfad437a685aec84",
+      "createdAt": "2026-09-26T05:01:46.038Z",
+      "updatedAt": "2026-09-26T05:01:46.038Z"
+    }
+  ],
+  "auditlogs": [
+    {
+      "reason": "Issue verified fixed by Hostel maintenance team.",
+      "metadata": {},
+      "moderatorId": "6e68c6b5d98ad102db33c036",
+      "moderatorEmail": "moderator@campus.edu",
+      "action": "resolve_post",
+      "targetType": "post",
+      "targetId": "d8011e86eb2d04318f79f90a",
+      "_id": "65fa51f1daf40d9a66acdde6",
+      "id": "65fa51f1daf40d9a66acdde6",
+      "createdAt": "2026-09-26T05:01:46.038Z",
+      "updatedAt": "2026-09-26T05:01:46.038Z"
+    },
+    {
+      "reason": "Initial platform bootstrap and demo dataset deployment.",
+      "metadata": {},
+      "moderatorId": "9967b185274c8f0735dc7e17",
+      "moderatorEmail": "admin@campus.edu",
+      "action": "system_seed",
+      "targetType": "system",
+      "_id": "d102e7cff4d89acc947ad4b7",
+      "id": "d102e7cff4d89acc947ad4b7",
+      "createdAt": "2026-09-26T05:01:46.038Z",
+      "updatedAt": "2026-09-26T05:01:46.038Z"
+    }
+  ],
+  "issueclusters": [
+    {
+      "recurrenceCount": 14,
+      "sentimentScore": -0.6,
+      "dominantSentiment": "Frustrated",
+      "actionableAdvice": "IT Services should perform channel congestion mapping and install dual-band APs in Library floors 2 and 3.",
+      "samplePostIds": [
+        "c409eccce9ba1fbe9aaae748"
+      ],
+      "status": "in_progress",
+      "title": "Campus Wireless Network Instability in High-Density Zones",
+      "category": "Infrastructure",
+      "summary": "Widespread complaints across Library, Academic Block B, and Hostel 4 reporting frequent dropouts and latency spikes over 300ms during afternoon study sessions.",
+      "_id": "ac903d15e0876d1b3f52ff34",
+      "id": "ac903d15e0876d1b3f52ff34",
+      "createdAt": "2026-09-26T05:01:46.038Z",
+      "updatedAt": "2026-09-26T05:01:46.038Z"
+    },
+    {
+      "recurrenceCount": 18,
+      "sentimentScore": -0.75,
+      "dominantSentiment": "Urgent",
+      "actionableAdvice": "Convene Campus Health Committee with student mess representatives; mandate weekly vendor temperature & cleanliness logs.",
+      "samplePostIds": [
+        "98d5eacfbd5ffbbe54f2f80b"
+      ],
+      "status": "investigating",
+      "title": "Dining Hall Food Quality & Hygiene Monitoring",
+      "category": "Mess",
+      "summary": "Multiple reports of gastrointestinal symptoms following specific meal cycles in South Campus Mess. Demand for unannounced food safety inspections.",
+      "_id": "2bfa0af1998fa1e011cefcf1",
+      "id": "2bfa0af1998fa1e011cefcf1",
+      "createdAt": "2026-09-26T05:01:46.038Z",
+      "updatedAt": "2026-09-26T05:01:46.038Z"
+    },
+    {
+      "recurrenceCount": 23,
+      "sentimentScore": 0.2,
+      "dominantSentiment": "Constructive",
+      "actionableAdvice": "Pilot overnight opening of Central Library Ground Floor during final exam weeks with student card swipe access.",
+      "samplePostIds": [
+        "630756d9626cfdf69818cd1c"
+      ],
+      "status": "acknowledged",
+      "title": "Study Spaces & Extended Operating Hours During Midterms",
+      "category": "Academics",
+      "summary": "Strong positive student demand for extending Library hours to 24/7 or opening lecture halls overnight for examination preparation.",
+      "_id": "9675a1e05749b56f73359e48",
+      "id": "9675a1e05749b56f73359e48",
+      "createdAt": "2026-09-26T05:01:46.038Z",
+      "updatedAt": "2026-09-26T05:01:46.038Z"
+    }
+  ]
+}
